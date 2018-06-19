@@ -28,6 +28,5 @@ public class MainClass01 {
 		ArrayList<String> list5=new ArrayList<>();
 		//<> 안에 어떤 데이터 타입을 넣을지 정해야 한다.
 		
-
 	}
 }
