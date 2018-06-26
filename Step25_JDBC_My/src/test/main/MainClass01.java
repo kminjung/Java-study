@@ -3,7 +3,7 @@ package test.main;
 import java.sql.Connection; //DB 연결객체
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;//
-import java.sql.ResultSet;//
+import java.sql.ResultSet;//데이터베이스 결과 집합을 나타내는 데이터 테이블.대개 데이터베이스를 쿼리하는 문을 실행하여 생성
 import java.sql.SQLException;
 
 /*
@@ -18,7 +18,7 @@ public class MainClass01 {
 	public static void main(String[] args) {
 		Connection conn=null;
 		try {
-			//오라클 드라이버 (jdb .jar 있어야 함)
+			//오라클 드라이버 로딩 (ojdbc6.jar 있어야함)
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			//@접속ip 주소: port번호 : DB이름
 			String url="jdbc:oracle:thin:@localhost:1521:xe";//DB 접속정보
@@ -32,8 +32,8 @@ public class MainClass01 {
 		}
 		
 		//필요한 객체를 담을 변수 만들기
-		PreparedStatement pstmt=null;
-		ResultSet rs=null;
+		PreparedStatement pstmt=null;//sql 실행구문
+		ResultSet rs=null;//결과
 		try {
 			String sql="SELECT num,name,addr From member";
 			pstmt=conn.prepareStatement(sql);

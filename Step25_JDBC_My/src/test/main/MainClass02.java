@@ -33,7 +33,7 @@ public class MainClass02 {
 		PreparedStatement pstmt=null;
 		try {
 			String sql="INSERT INTO member (num,name,addr) "
-					+ "VALUES(?, ?, ?)";
+					+ "VALUES(?, ?, ?)"; //실행할 sql문의 뼈대
 			//sql 문을 수행할 PreparedStatement 객체 얻어내기
 			pstmt=conn.prepareStatement(sql);
 			//? 에 값 바인딩 하기 
@@ -41,7 +41,7 @@ public class MainClass02 {
 			pstmt.setString(2, name);
 			pstmt.setString(3, addr);
 			//sql 문 수행하기
-			pstmt.executeUpdate();
+			pstmt.executeUpdate();//inset, into, .. 사용할 때 사용
 			System.out.println("회원 정보를 저장했습니다.");
 		}catch(SQLException se) {
 			se.printStackTrace();
