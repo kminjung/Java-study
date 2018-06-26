@@ -14,5 +14,9 @@ public class MainClass02 {
 		int b=nums[1];
 		//방의 크기 참조
 		int size=nums.length;
+		
+		
+		
+		
 	}
 }

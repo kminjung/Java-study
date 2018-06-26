@@ -3,7 +3,7 @@ package test.main;
  *  [ 기본 data type  VS  참조 data type ]
  * 
  * 	기본 data type 변수에는 실제로 값이 들어 있고
- *  참조 data type 변수에는 id값 (참조값) 이 들어 있다.
+ *  참조 data type 변수에는 참조 된 객체의 id값 (참조값) 이 들어 있다.
  *  
  */
 public class MainClass05 {

@@ -19,10 +19,10 @@ public class MainClass01 {
 		//run 을 눌렀을 때 실행순서는 여기서부터
 		
 		// static 메소드 안에서는 static 자원들만 참조 가능
-		//int result=this.num;
+		//int result=this.num; static 이 안 붙어있음
 		
 		//참조 가능
-		int result2=MainClass01.num2;
+		int result2=MainClass01.num2; // mainclass 밖에 있어도 static 이붙어있기 때문에 참조 가능
 		
 		//내부 클래스로 객체 생성 가능
 		Gura g=new Gura();

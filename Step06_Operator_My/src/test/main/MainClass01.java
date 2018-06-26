@@ -29,6 +29,7 @@ public class MainClass01 {
 		//num1 을 num2 로 나눈 나머지 값 얻어내기
 		int result5 = num1 % num2;
 		
+		System.out.println(result5);
 		
 	}
 

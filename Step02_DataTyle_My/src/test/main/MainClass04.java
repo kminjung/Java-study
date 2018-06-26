@@ -17,5 +17,7 @@ public class MainClass04 {
 		boolean result=!true;
 		boolean result2=true||false;
 		
+		
+		
 	}
 }

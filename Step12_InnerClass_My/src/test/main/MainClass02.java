@@ -1,7 +1,7 @@
 package test.main;
 
 import test.mypac.Bakery;
-import test.mypac.Bakery.Bread;
+import test.mypac.Bakery.Bread; //클래스를 참조한 것
 import test.mypac.Bakery.Cake;
 
 public class MainClass02 {

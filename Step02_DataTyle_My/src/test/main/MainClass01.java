@@ -2,7 +2,7 @@ package test.main;
 /*
  * [ Data type ]
  * 
- * 1. Strubg type
+ * 1. String type
  * 
  * - 문자열을 나타낼 때 사용하는 type 이다.
  * 

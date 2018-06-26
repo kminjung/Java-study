@@ -7,12 +7,12 @@ public class MainClass01 { //클래스 식별자
 		System.out.println("main 메소드가 시작되었습니다.");
 		
 		/*
-		 *  static 예약어가 붙은 메소드를 호출하는 방법 / class 에다 . 을 붙여야 함
+		 *  static 예약어가 붙은 메소드를 호출하는 방법 / class 에다 . 을 붙여야 함 공유의 의미
 		 *  
-		 *  클래스명.메소드명();
+		 *  클래스명.메소드명(); 클래스에다. 하면 동작이 나온다.
 		 *  
 		 *  ex)
-		 *  MainClass01.a();
+		 *  MainClass01.a(); MainClass01.하면 a 동작이 나온다.
 		 */		
 		MainClass01.a();
 		/*
@@ -20,7 +20,7 @@ public class MainClass01 { //클래스 식별자
 		 */
 		b();
 		
-		System.out.println("main 메소드가 종료(return) 됩니다.");
+		System.out.println("main 메소드가 종료(returdfn) 됩니다.");
 	}
 	
 	// a 메소드
